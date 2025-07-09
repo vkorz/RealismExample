@@ -3,12 +3,12 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.cow.v2",
+				"identifier": "geometry.mooshroom.v2",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 5,
-				"visible_bounds_height": 3.5,
-				"visible_bounds_offset": [0, 1.25, 0]
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
 			"bones": [
 				{
@@ -16,7 +16,7 @@
 					"pivot": [0, 0, -1]
 				},
 				{
-					"name": "head",
+					"name": "head2",
 					"parent": "root",
 					"pivot": [0, 20, -15],
 					"cubes": [
@@ -32,11 +32,11 @@
 						{"origin": [1.5, 28, -18], "size": [1, 2, 1], "pivot": [6, 4, -4], "rotation": [4.92442, 0.86717, -17.46271], "uv": [22, 0]}
 					],
 					"locators": {
-						"lead": [0, 20, -15]
+						"lead2": [0, 20, -15]
 					}
 				},
 				{
-					"name": "body",
+					"name": "body2",
 					"parent": "root",
 					"pivot": [0, 19, 1],
 					"cubes": [
@@ -55,14 +55,14 @@
 				},
 				{
 					"name": "bb_main",
-					"parent": "body",
+					"parent": "body2",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{"origin": [-3, 9, 2], "size": [6, 3, 5], "uv": [-5, -3]}
 					]
 				},
 				{
-					"name": "leg0",
+					"name": "leg4",
 					"parent": "root",
 					"pivot": [-4, 12, 6],
 					"cubes": [
@@ -70,7 +70,7 @@
 					]
 				},
 				{
-					"name": "leg1",
+					"name": "leg5",
 					"parent": "root",
 					"pivot": [4, 12, 6],
 					"mirror": true,
@@ -79,7 +79,7 @@
 					]
 				},
 				{
-					"name": "leg2",
+					"name": "leg6",
 					"parent": "root",
 					"pivot": [-4, 12, -7],
 					"cubes": [
@@ -87,7 +87,7 @@
 					]
 				},
 				{
-					"name": "leg3",
+					"name": "leg7",
 					"parent": "root",
 					"pivot": [4, 12, -7],
 					"mirror": true,
